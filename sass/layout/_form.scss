@@ -1,0 +1,59 @@
+.form {
+	margin: 6rem 0 6rem 0;
+	max-width: 100%;
+	overflow: hidden;
+
+    &__wrapper {
+        max-width: 50rem;
+        margin: 0 auto;
+        background-color: rgba(233, 243, 241, 0.603);
+        padding: 3rem 1rem;
+        border-radius: .5rem;
+        box-shadow: $shadow;
+
+        @media screen and(min-width: 800px) {
+          padding: 3rem;
+        }
+    }
+
+    &__input {
+        font-family: inherit;
+        font-size: 1.2rem;
+        color: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: .5rem;
+        background-color: rgba(255, 255, 255, .7);
+        border: none;
+        border-bottom: 3px solid transparent;
+        width: 100%;
+        display: block;
+        transition: all .3s;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            border-bottom: 3px solid $color-primary;
+        }
+
+        &:focus:invalid {
+            border-bottom: 3px solid $color-secondary-dark;
+        }
+    }
+
+    & input[type="submit"] {
+        margin: 3rem auto;
+        display: block;
+        font-size: 1.4rem;
+    }
+
+    & a {
+        text-decoration: none;
+        color: $color-secondary-dark;
+
+        &:hover {
+            color: $color-grey-dark;
+        }
+    }
+}

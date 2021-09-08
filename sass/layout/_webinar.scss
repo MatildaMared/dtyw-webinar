@@ -1,0 +1,22 @@
+.webinar {
+	margin: 6rem 0 6rem 0;
+	max-width: 100%;
+	overflow: hidden;
+
+	&__content {
+    margin: 4rem 0;
+	}
+
+  &__list {
+    margin-top: 4rem;
+  }
+
+	&__text {
+		text-align: center;
+	}
+
+
+	h1, h2, h3, p, li {
+		padding: 0 1rem;
+	}
+}

@@ -1,0 +1,42 @@
+.introduction {
+	margin: 6rem 0 0 0;
+	max-width: 100%;
+	overflow: hidden;
+
+	&__divider {
+		max-width: 15rem;
+		height: 2px;
+		background-color: $color-primary;
+		margin: 2rem auto;
+		opacity: 0.5;
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+
+	&__content {
+		margin-top: 5rem;
+	}
+
+	&__text {
+		text-align: center;
+	}
+
+	&__countdown {
+		width: 100%;
+		padding: 3rem 0;
+		background-color: $color-primary-dark;
+		margin-bottom: 3rem;
+
+		& img {
+			margin: 0 auto;
+		}
+	}
+
+	h3 {
+		max-width: 65rem;
+	}
+
+	h1, h2, h3, p, li {
+		padding: 0 1rem;
+	}
+}
